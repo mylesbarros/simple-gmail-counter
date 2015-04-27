@@ -4,9 +4,35 @@
   "id": "jid1-YPEcBWwdiQIiFg",
   "description": "a basic add-on",
   "author": "Myles V. Barros",
+  "icon": "data/icon-64.png",
   "permissions": {
 	"private-browsing": true
   },
+  "preferences": [{
+	"name": "color",
+	"title": "Badge Color",
+	"description": "The color of the unread notifications badge.",
+	"type": "menulist",
+	"value": "#186DEE",
+	"options": [
+	  {
+	      "value": "#186DEE",
+	      "label": "Blue"
+	  },
+	  {
+	      "value": "#D94430",
+	      "label": "Red"
+	  },
+	  {
+	      "value": "#FFBB08",
+	      "label": "Yellow"
+	  },
+	  {
+	      "value": "#009A57",
+	      "label": "Green"
+	  }
+	] 
+  }],
   "license": "GPL 3.0",
   "version": "0.9"
 }
