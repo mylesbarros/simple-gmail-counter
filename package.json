@@ -4,7 +4,7 @@
   "id": "jid1-YPEcBWwdiQIiFg",
   "description": "Keeps track of the state of your inbox from your toolbar. Stay abreast of new emails and access them quickly through this simple but useful add-on.",
   "author": "Myles V. Barros",
-  "icon": "data/icon-64.png",
+  "icon": "data/icon-48.png",
   "permissions": {
 	"private-browsing": true
   },
