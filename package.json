@@ -32,6 +32,41 @@
 	      "label": "Green"
 	  }
 	] 
+  },
+  {
+  	"name": "inbox-primary",
+	"title": "Primary Emails",
+	"description": "Include emails that are sorted into your Primary email tab in the total count?",
+	"type": "bool",
+	"value": true
+  },
+  {
+  	"name": "inbox-social",
+	"title": "Social Emails",
+	"description": "Include emails that are sorted into your Social email tab in the total count?",
+	"type": "bool",
+	"value": true
+  },
+  {
+  	"name": "inbox-promotions",
+	"title": "Promotional Emails",
+	"description": "Include emails that are sorted into your Promotions email tab in the total count?",
+	"type": "bool",
+	"value": true
+  },
+  {
+  	"name": "inbox-updates",
+	"title": "Update Emails",
+	"description": "Include emails that are sorted into your Updates email tab in the total count?",
+	"type": "bool",
+	"value": true
+  },
+  {
+  	"name": "inbox-forums",
+	"title": "Forum Emails",
+	"description": "Include emails that are sorted into your Forums email tab in the total count?",
+	"type": "bool",
+	"value": true
   }],
   "license": "GPL 3.0",
   "version": "1.0.4"
