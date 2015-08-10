@@ -5,6 +5,8 @@
   "description": "Keeps track of the state of your inbox from your toolbar. Stay abreast of new emails and access them quickly through this simple but useful add-on.",
   "author": "Myles V. Barros",
   "icon": "data/icon-48.png",
+  "license": "GPL 3.0",
+  "version": "1.1",
   "permissions": {
 	"private-browsing": true
   },
@@ -34,40 +36,10 @@
 	] 
   },
   {
-  	"name": "inbox-primary",
-	"title": "Primary Emails",
-	"description": "Include emails that are sorted into your Primary email tab in the total count?",
+  	"name": "notifications",
+	"title": "Audio Notifications",
+	"description": "Play an alert when new messages have been received.",
 	"type": "bool",
-	"value": true
-  },
-  {
-  	"name": "inbox-social",
-	"title": "Social Emails",
-	"description": "Include emails that are sorted into your Social email tab in the total count?",
-	"type": "bool",
-	"value": true
-  },
-  {
-  	"name": "inbox-promotions",
-	"title": "Promotional Emails",
-	"description": "Include emails that are sorted into your Promotions email tab in the total count?",
-	"type": "bool",
-	"value": true
-  },
-  {
-  	"name": "inbox-updates",
-	"title": "Update Emails",
-	"description": "Include emails that are sorted into your Updates email tab in the total count?",
-	"type": "bool",
-	"value": true
-  },
-  {
-  	"name": "inbox-forums",
-	"title": "Forum Emails",
-	"description": "Include emails that are sorted into your Forums email tab in the total count?",
-	"type": "bool",
-	"value": true
-  }],
-  "license": "GPL 3.0",
-  "version": "1.0.4"
+	"value": false
+  }]
 }
